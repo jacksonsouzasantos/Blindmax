@@ -1,0 +1,9 @@
+[build]
+  command = "pnpm build"
+  publish = "dist/public"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Optional: set VITE_WHATSAPP_NUMBER in Netlify environment variables to the business number,
+# digits only and including country code (e.g. 55 + area code + number).
